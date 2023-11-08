@@ -75,3 +75,38 @@
     background: #27296d;
     color: white;
 }
+
+/* Media Queries */
+/* Mobile Styles */
+@media (max-width: 640px) {
+    .nav-logo p {
+      font-size: 24px;
+    }
+    .navbar{
+        display: flex;
+        flex-direction: column;
+    }
+    .nav-login-cart{
+        justify-content:center;
+    }
+    .nav-menu{
+        flex-direction: column;
+        margin-bottom: 50px;
+    }
+   
+  
+    .nav-menu li {
+      gap: 10px;
+    }
+  }
+  
+  /* Tablet Styles */
+  @media (min-width: 641px) and (max-width: 992px) {
+    .nav-logo p {
+      font-size: 32px;
+    }
+  
+    .nav-menu li {
+      gap: 10px;
+    }
+  }
