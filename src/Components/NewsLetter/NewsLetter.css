@@ -8,7 +8,7 @@
     margin:auto;
     padding: 0px 140px;
     margin-bottom:50px;
-    background: linear-gradient(180deg,#fde1ff 0%,#e1ffea22 60%);
+    background: linear-gradient(180deg,#a393eb 0%,#e1ffea22 60%);
     gap: 30px;
 }
 .newsletter h1{
@@ -43,8 +43,9 @@
     width: 210px;
     height: 70px;
     border-radius: 80px;
-    background: black;
-    color: white;
+    background: #f5c7f7;
+    color: #000000;
     font-size:16px;
+    border: none;
     cursor: pointer;
 }

@@ -55,7 +55,7 @@
     height: 58px;
     outline: none;
     border: none;
-    background: #ff5a5a;
+    background: #27296d;
     color: #fff;
     font-size: 16px;
     font-weight: 600;
@@ -88,7 +88,8 @@
     width: 170px;
     height: 58px;
     font-size: 16px;
-    background: black;
-    color: white;
+    background: #f5c7f7;
+    border: none;
+    color: black;
     cursor: pointer;
 }

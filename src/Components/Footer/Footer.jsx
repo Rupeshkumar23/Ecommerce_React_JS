@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from "react";
 import "./Footer.css";
-import footer_logo from "../Assets/logo_big.png";
+import footer_logo from "../Assets/logo_big1.png";
 import instagram_icon from "../Assets/instagram_icon.png";
 import pinterest_icon from "../Assets/pinterest_icon.png";
 import whatsapp_icon from "../Assets/whatsapp_icon.png";
@@ -13,7 +13,7 @@ const Footer = () => {
     <div className="footer">
       <div className="footer_logo">
         <img src={footer_logo} alt="footer_logo" />
-        <p>SHOPPER</p>
+        <p>TRENDY</p>
       </div>
       <ul className="footer_links">
         <li>Company</li>

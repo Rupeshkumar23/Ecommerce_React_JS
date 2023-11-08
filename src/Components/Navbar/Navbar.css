@@ -3,6 +3,10 @@
     justify-content: space-around;
     padding: 16px;
     box-shadow: 0 1px 3px -2px black;
+    position: sticky;
+    background: white;
+    z-index: 10;
+    top: 0;
 }
 .nav-logo{
     display: flex;
@@ -36,7 +40,7 @@
     width: 80%;
     height: 3px;
     border-radius: 10px;
-    background: #FF4141;
+    background: #27296d;
 }
 .nav-login-cart{
     display: flex;
@@ -68,6 +72,6 @@
     margin-left: -55px;
     border-radius: 11px;
     font-size: 14px;
-    background: red;
+    background: #27296d;
     color: white;
 }

@@ -1,6 +1,6 @@
 .hero{
     height: 100vh;
-    background: linear-gradient(180deg, #fde1ff,#e1ffea22 60%);
+    background: linear-gradient(180deg, #a393eb,#e1ffea22 60%);
     display: flex;
 }
 .hero_left{
@@ -39,7 +39,8 @@
     height: 70px;
     border-radius: 75px;
     margin-top: 30px;
-    background: #ff4141;
+    background: #27296d;
+    color: #fff;
     font-size: 22px;
     font-weight: 500;
 }
@@ -48,4 +49,8 @@
     display: flex;
     align-items: center;
     justify-content: center;
+}
+.hero_right img{
+    height: 680px;
+    margin-bottom: 150px;
 }
