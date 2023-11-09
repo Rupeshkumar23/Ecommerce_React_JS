@@ -71,6 +71,7 @@
 }
 .cartitems_promobox{
     width: 504px;
+    display: flex;
     margin-top:15px;
     padding-left: 20px;
     height: 58px;
