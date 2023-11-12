@@ -17,3 +17,17 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+@media (max-width: 768px) {
+  /* Styles for screens up to 768px wide */
+  body{
+    width: 100%;
+  }
+ 
+}
+
+@media (max-width: 1024px) {
+  /* Styles for screens up to 1024px wide */
+ body{
+  width: 100%;
+ }
+}
