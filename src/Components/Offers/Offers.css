@@ -82,7 +82,7 @@
     }
     .offers_right img{
         width: 250px;
-        height: 430px;
+        height: 390px;
     }
     .offers_left button{
         width: 160px;
@@ -116,6 +116,7 @@
 }
 @media (max-width:564px) {
     .offers{
+        margin-top: 50px;
         height: 25vh;
         margin-bottom: 50px;
     }
@@ -126,8 +127,9 @@
         font-size: 10px;
     }
     .offers_right img{
-        width: 125px;
-        height: 250px;
+        width: 130px;
+        height: 200px;
+        padding-right: 50px;
     }
     .offers_left button{
         width: 120px;
