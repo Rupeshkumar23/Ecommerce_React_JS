@@ -24,7 +24,7 @@
     font-weight: 500;
     text-decoration: line-through;
 }
-.item:hover{
+.item img:hover{
     transform: scale(1.05);
     transition: 0.6s;
     filter: drop-shadow(4px 6px 15px rgba(0, 0, 0, 0.5));
