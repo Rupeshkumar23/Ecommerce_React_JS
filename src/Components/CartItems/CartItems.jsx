@@ -3,6 +3,7 @@ import React, { useContext } from "react";
 import "./CartItems.css";
 import { ShopContext } from "../../Context/ShopContext";
 import remove_icon from "../Assets/cart_cross_icon.png";
+import icon from "../Assets/icons-i-32.png"
 const CartItems = () => {
   const { all_product, cartItems, removeFromCart,getTotalCartAmount} = useContext(ShopContext);
   return (
@@ -67,7 +68,7 @@ const CartItems = () => {
         <div className="cartitems_promocode">
             <p>If you have a promo code, Enter it here</p>
             <div className="cartitems_promobox">
-                <input type="text" placeholder="promo code" />
+                <input type="text"   style={{ cursor: `url(${icon}),auto` }} placeholder="promo code" />
                 <button>Submit</button>
             </div>
         </div>

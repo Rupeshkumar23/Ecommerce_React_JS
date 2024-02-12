@@ -17,7 +17,9 @@ body {
 button{
   cursor: url('./Components/Assets/icons8-cursor-32.png'), auto!important;
 }
-
+.custom-input::placeholder {
+  cursor: url('./Components/Assets/icons-i-32.png'), auto;
+}
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
