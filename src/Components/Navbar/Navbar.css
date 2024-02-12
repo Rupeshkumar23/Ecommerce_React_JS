@@ -27,14 +27,16 @@
     color: #626262;
     font-size: 20px;
     font-weight: 500;
+    cursor: url('../Assets/icons8-cursor-32.png'), auto!important;
+  
 }
+
 .nav_menu li{
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
     gap: 3px;
-    cursor: pointer;
 }
 .nav_menu hr{
     border:none;
@@ -58,7 +60,7 @@
     font-size: 20px;
     font-weight: 500;
     background: white;
-    cursor: pointer;
+    cursor: url('../Assets/icons8-cursor-32.png'), auto!important;
 }
 .nav_login_cart button:active{
     background: #f3f3f3;
