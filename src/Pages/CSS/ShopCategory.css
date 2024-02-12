@@ -3,6 +3,8 @@
     margin: 30px auto;
     width: 82%;
     height: 550px;
+    outline: .5rem solid #8c52ff80;
+    border-radius: 1rem;
 }
 .shopcategory_indexSort{
     display: flex;
@@ -95,3 +97,4 @@
         grid-template-columns:1fr 1fr ;
     }
 }
+
