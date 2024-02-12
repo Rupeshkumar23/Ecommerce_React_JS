@@ -14,7 +14,19 @@ const Hero = () => {
             <img src={hand_icon} alt="hand_icon" />
           </div>
           <p>Collections</p>
-          <p>for everyone</p>
+          <main className="container">
+            <section className="animation">
+              <div className="first">
+                <div>Exceptional Styles</div>
+              </div>
+              <div className="second">
+                <div>Uncover Trends</div>
+              </div>
+              <div className="third">
+                <div>Personalized Selections</div>
+              </div>
+            </section>
+          </main>
         </div>
         <div className="hero_latest_btn">
           <div>Latest Collection</div>
