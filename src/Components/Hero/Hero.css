@@ -51,6 +51,7 @@
     font-weight: 500;
 }
 
+
 .hero_right {
     flex: 1;
     display: flex;
@@ -59,9 +60,8 @@
 }
 
 .hero_right img {
-    width: 580px;
-    height: 580px;
-    /* margin-bottom: 150px; */
+    margin-bottom: 150px;
+    margin-left: -200px;
 }
 
 @media (max-width:1280px) {

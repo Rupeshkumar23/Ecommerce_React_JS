@@ -2,7 +2,7 @@ import React from "react";
 import "./Hero.css";
 import hand_icon from "../Assets/New.png";
 import arrow_icon from "../Assets/arrow.png";
-import hero_img from "../Assets/Mens_2.png";
+import hero_img from "../Assets/shop1.png";
 const Hero = () => {
   return (
     <div className="hero">
@@ -11,7 +11,7 @@ const Hero = () => {
         <div>
           <div className="hero_hand_icon">
             <p>New</p>
-            <img src={hand_icon} alt="hand_icon" />
+            <img src={hand_icon} alt="hand_icon"aria-hidden="true" />
           </div>
           <p>Collections</p>
           <main className="container">
@@ -29,8 +29,8 @@ const Hero = () => {
           </main>
         </div>
         <div className="hero_latest_btn">
-          <div>Latest Collection</div>
-          <img src={arrow_icon} alt="arrow_icon" />
+        <div role="button" id="Button"  title="Explore our latest collection" aria-label="Explore our latest collection">Latest Collection</div>
+          <img src={arrow_icon} alt="arrow_icon" aria-hidden="true" />
         </div>
       </div>
       <div className="hero_right">

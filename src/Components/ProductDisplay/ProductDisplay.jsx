@@ -56,7 +56,7 @@ const ProductDisplay = (props) => {
                 <div>XXL</div>
             </div>
         </div>
-        <button onClick={()=>{addToCart(product.id)}}>ADD TO CART</button>
+        <button aria-label="AddToCart" onClick={()=>{addToCart(product.id)}}>ADD TO CART</button>
         <p className="productdisplay_right_category"><span>Category :</span> Women , T-Shirt, Crop Top </p>
         <p className="productdisplay_right_category"><span>Tags :</span> Modern, Latest </p>
       </div>

@@ -23,7 +23,7 @@ const LoginSignup = () => {
             placeholder="Password"
           />
         </div>
-        <button>Continue</button>
+        <button aria-label="Continue">Continue</button>
         <p className="loginsignup_login">
           Already have an account? <span>Login here</span>
         </p>

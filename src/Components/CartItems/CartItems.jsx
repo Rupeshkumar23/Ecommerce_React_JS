@@ -25,7 +25,7 @@ const CartItems = () => {
                 <img src={e.image} alt="" className="carticon_product_icon" />
                 <p>{e.name}</p>
                 <p>{e.new_price}</p>
-                <button className="cartitems_quantity">
+                <button aria-label="CartItemQuantity" className="cartitems_quantity">
                   {cartItems[e.id]}
                 </button>
                 <p>${e.new_price*cartItems[e.id]}</p>
@@ -69,7 +69,7 @@ const CartItems = () => {
             <p>If you have a promo code, Enter it here</p>
             <div className="cartitems_promobox">
                 <input type="text"   style={{ cursor: `url(${icon}),auto` }} placeholder="promo code" />
-                <button>Submit</button>
+                <button aria-label="Submit">Submit</button>
             </div>
         </div>
       </div>

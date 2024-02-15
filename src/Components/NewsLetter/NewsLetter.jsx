@@ -12,7 +12,7 @@ const NewsLetter = () => {
           type="email"
           placeholder="Your Email id"
         />
-        <button>Subscribe</button>
+      <button  aria-label="Subscribe to our newsletter">Subscribe</button>
       </div>
     </div>
   );

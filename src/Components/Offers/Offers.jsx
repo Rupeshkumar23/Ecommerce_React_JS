@@ -9,7 +9,7 @@ const Offers = () => {
         <h1>Exclusive</h1>
         <h1>Offers For You</h1>
         <p>ONLY ON BEST SELLERS PRODUCTS</p>
-        <button>Check Now</button>
+        <button  aria-label="Check Now - Explore the latest updates">Check Now</button>
         </div>
         <div className="offers_right">
         <img src={exclusive_img} alt="exclusive_img" />
