@@ -4,6 +4,7 @@ import { toast } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
 import "./CSS/LoginSignup.css";
 import icon from "../Components/Assets/icons-i-32.png";
+import CustomHelmet from "../Components/Helmet/Helmet";
 
 const LoginSignup = () => {
   const form = useRef();
@@ -60,8 +61,11 @@ const LoginSignup = () => {
       setSubmitting(false);
     }
   };
+  const title="TRENDY - Login/Signup"
 
   return (
+    <>
+    <CustomHelmet title={title}/>
     <form ref={form} onSubmit={sendEmail}>
       <div className="loginsignup">
         <div className="loginsignup_container">
@@ -117,6 +121,7 @@ const LoginSignup = () => {
         </div>
       </div>
     </form>
+    </>
   );
 };
 

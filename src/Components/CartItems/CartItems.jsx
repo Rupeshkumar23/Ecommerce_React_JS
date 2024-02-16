@@ -4,10 +4,13 @@ import "./CartItems.css";
 import { ShopContext } from "../../Context/ShopContext";
 import remove_icon from "../Assets/cart_cross_icon.png";
 import icon from "../Assets/icons-i-32.png"
+import CustomHelmet from "../Helmet/Helmet";
 const CartItems = () => {
   const { all_product, cartItems, removeFromCart,getTotalCartAmount} = useContext(ShopContext);
+  const title ="TRENDY - Shopping Cart"
   return (
     <div className="cartitems">
+      <CustomHelmet title={title}/>
       <div className="cartitems_format_main">
         <p>Products</p>
         <p>Title</p>
@@ -17,11 +20,11 @@ const CartItems = () => {
         <p>Remove</p>
       </div>
       <hr />
-      {all_product.map((e) => {
+      {all_product.map((e,i) => {
         if (cartItems[e.id] > 0) {
           return (
             <div>
-              <div className="cartitems_format cartitems_format_main">
+              <div key={i} className="cartitems_format cartitems_format_main">
                 <img src={e.image} alt="" className="carticon_product_icon" />
                 <p>{e.name}</p>
                 <p>{e.new_price}</p>
