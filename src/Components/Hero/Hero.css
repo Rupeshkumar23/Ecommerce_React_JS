@@ -159,6 +159,7 @@
     .hero_right img {
         width: 300px;
         height: auto;
+        margin-bottom: -50px;
     }
     .container {
       display: none;
