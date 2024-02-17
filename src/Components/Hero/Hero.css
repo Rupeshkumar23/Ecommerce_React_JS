@@ -60,6 +60,7 @@
 }
 
 .hero_right img {
+    width: 100%;
     margin-bottom: 150px;
     margin-left: -200px;
 }
@@ -167,7 +168,7 @@
 
 }
 
-@media (max-width:500px) {
+@media (max-width:534px) {
     .hero {
         flex-direction: column;
     }
@@ -193,6 +194,7 @@
         height: 45px;
         font-size: 14px;
     }
+  
     .container {
         display: none;
     }
