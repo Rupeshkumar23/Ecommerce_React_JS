@@ -19,7 +19,7 @@ function App() {
         offset: 130,
         duration: 300,
         easing: 'ease-in-sine',
-        delay: 200,
+        delay: 20,
         });
   },[])
   return (
