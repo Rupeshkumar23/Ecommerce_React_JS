@@ -10,8 +10,18 @@ import Footer from './Components/Footer/Footer';
 import men_banner from './Components/Assets/Lilac Childish Kids Fashion Store Banner  (1).png'
 import women_banner from './Components/Assets/Lilac Childish Kids Fashion Store Banner_1 .png'
 import kid_banner from './Components/Assets/Lilac Childish Kids Fashion Store Banner  (2).png'
+import { useEffect } from 'react';
+import Aos from 'aos';
 
 function App() {
+  useEffect(() => {
+        Aos.init({
+        offset: 130,
+        duration: 300,
+        easing: 'ease-in-sine',
+        delay: 200,
+        });
+  },[])
   return (
     <div >
       <BrowserRouter>

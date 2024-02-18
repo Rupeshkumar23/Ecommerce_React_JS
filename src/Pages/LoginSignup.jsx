@@ -68,7 +68,7 @@ const LoginSignup = () => {
     <CustomHelmet title={title}/>
     <form ref={form} onSubmit={sendEmail}>
       <div className="loginsignup">
-        <div className="loginsignup_container">
+        <div className="loginsignup_container"data-aos="zoom-in">
           <h1>Sign Up</h1>
           <div className="loginsignup_fields">
             <input

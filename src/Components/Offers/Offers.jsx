@@ -12,7 +12,7 @@ const Offers = () => {
         <button  aria-label="Check Now - Explore the latest updates">Check Now</button>
         </div>
         <div className="offers_right">
-        <img src={exclusive_img} alt="exclusive_img" />
+        <img src={exclusive_img} alt="exclusive_img"data-aos="fade-zoom-in" />
         </div>
     </div>
   )

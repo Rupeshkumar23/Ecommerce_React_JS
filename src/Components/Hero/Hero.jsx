@@ -35,7 +35,7 @@ const Hero = () => {
         </div>
       </div>
       <div className="hero_right">
-        <img src={hero_img} alt="hero_img" />
+        <img  src={hero_img} alt="hero_img"data-aos="fade-zoom-in" />
       </div>
     </div>
   );

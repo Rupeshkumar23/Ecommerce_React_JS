@@ -12,7 +12,7 @@ const CartItems = () => {
   const title = `TRENDY - Shopping Cart - (${getTotalCartItems()})`;
   return (
     <div className="cartitems">
-      <div className="cart_icon">
+      <div className="cart_icon" data-aos="fade-right">
       <img src={cart_shop} alt="cart"  />
       </div>
       <CustomHelmet title={title} />
